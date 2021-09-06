@@ -6,7 +6,8 @@ public class main {
     }
 
     public String hello()  {
-        return "hello";
+        return "test";
+
 
     }
 }
