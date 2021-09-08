@@ -6,11 +6,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class test {
 
- @Test
-
-    void shouldConvertToOne() {
-     assertEquals("I", task.intToRoman(5));
- }
 
 
 }
