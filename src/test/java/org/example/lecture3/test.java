@@ -13,7 +13,15 @@ class test {
 
  @Test
     void shouldConvertToTen() {
-     assertEquals("X", task.intToRoman(16));
+     assertEquals("X", task.intToRoman(10));
+ }
+
+ @Test
+    void shouldConvertOneToTen() {
+     String [] onetoten = {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII","IX" ,"X"};
+     for(int i = 0; i < 11; i++) {
+         assertEquals(onetoten[i], task.intToRoman(i));
+     }
  }
 
 }
