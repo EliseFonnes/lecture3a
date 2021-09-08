@@ -1,4 +1,3 @@
 package org.example.lecture32;
 
-public class main {
-}
+public class main {}
