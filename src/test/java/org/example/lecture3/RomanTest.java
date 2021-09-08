@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RomanTest1 {
+class RomanTest {
 
     @Test
     void shouldConvertToOne() {
