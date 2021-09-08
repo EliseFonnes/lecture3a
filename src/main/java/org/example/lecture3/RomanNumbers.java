@@ -2,7 +2,7 @@ package org.example.lecture3;
 import java.util.Scanner;
 
 
-public class task {
+public class RomanNumbers {
 
     public static String intToRoman(int num) {
         String[] thousands = new String[]{"", "M", "MM", "MMM"};
