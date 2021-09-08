@@ -1,23 +1,26 @@
 package org.example.lecture3;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-class RomanTest {
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
+
+
+public class RomanTest {
 
     @Test
-    void shouldConvertToOne() {
+    public void shouldConvertToOne() {
         assertEquals("I", RomanNumbers.intToRoman(1));
     }
 
     @Test
-    void shouldConvertToTen() {
+    public void shouldConvertToTen() {
         assertEquals("X", RomanNumbers.intToRoman(10));
     }
 
     @Test
-    void shouldConvertOneToTen() {
+    public void shouldConvertOneToTen() {
         String[] onetoten = {" ", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
         for (int i = 1; i < 11; i++) {
             assertEquals(onetoten[i], RomanNumbers.intToRoman(i));
@@ -25,7 +28,7 @@ class RomanTest {
     }
 
     @Test
-    void shouldConvertToFifty() {
+    public void shouldConvertToFifty() {
         assertEquals("L", RomanNumbers.intToRoman(50));
     }
 

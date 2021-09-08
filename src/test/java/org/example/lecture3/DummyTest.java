@@ -1,13 +1,14 @@
 package org.example.lecture3;
 
-import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class DummyTest {
 
     @Test
-    void dummyTest() {
+    public void dummyTest() {
         assertEquals(42, 6*7);
     }
 
