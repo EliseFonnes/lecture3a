@@ -8,7 +8,12 @@ class test {
 
  @Test
     void shouldConvertToOne() {
-     assertEquals("I", task.intToRoman(4));
+     assertEquals("I", task.intToRoman(1));
+ }
+
+ @Test
+    void shouldConvertToTen() {
+     assertEquals("X", task.intToRoman(16));
  }
 
 }
