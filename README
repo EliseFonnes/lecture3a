@@ -1,3 +1,11 @@
 Link til youtube video: https://youtu.be/ZcKxr517ltw
 
 [![Java CI with Maven](https://github.com/EliseFonnes/lecture3a/actions/workflows/maven.yml/badge.svg)
+
+Eksempel på bruk:
+mvn package
+java -classpath target/classes org.example.lecture3.RomanNumbers
+Skriv inn tall her:
+55
+Romertallet er: LV
+
