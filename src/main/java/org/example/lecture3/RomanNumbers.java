@@ -13,13 +13,13 @@ public class RomanNumbers {
             hundreds[(num % 1000) /100] +
             tens[(num % 100) / 10] +
             units[num % 10];
-
     }
 
     public static void main(String[] args) {
         Scanner readData = new Scanner(System.in);
         System.out.println("Skriv inn tall her:");
         System.out.println("Romertallet er: " + intToRoman(readData.nextInt()));
+        System.out.println("Ferdig");
     }
 }
 
